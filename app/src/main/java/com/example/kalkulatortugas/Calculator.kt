@@ -99,14 +99,14 @@ fun CalculatorButton(btn : String,onClick : () -> Unit  ) {
 
 fun getColor(btn: String) : Color {
     if(btn == "C" || btn == "AC"){
-        return Color(0xfff44336)
+        return Color.Gray
     }
     if(btn == "(" || btn == ")") {
         return  Color.Gray
     }
     if(btn == "+" || btn == "-" || btn == "*" || btn == "/") {
-        return Color(0xffff9800 )
+        return Color.Gray
 
     }
-    return Color(0xff00c8c9)
+    return Color.Black
 }
